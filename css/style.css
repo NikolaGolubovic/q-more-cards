@@ -132,7 +132,7 @@ body {
     .container-article {
         min-height: 75vh;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 30%);
+        grid-template-rows: repeat(3, 33%);
         grid-template-areas: "article-1 article-1 article-2" "article-3 article-4 article-4" "article-5 article-5 article-5";
     }
 }
