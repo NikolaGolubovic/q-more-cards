@@ -112,19 +112,21 @@ body {
         margin-bottom: 20px;
     }
     .article-number-1 {
-        z-index: -2;
+        z-index: -3;
+    }
+    .article-number-1 .article-author-wrapper {
+        z-index: -2
     }
     .article-number-1 .article-title h4 {
         position: relative;
-        z-index: 10;
     }
     .article-number-1 .article-title h4::before {
         content: url("/images/bg-pattern-quotation.svg");
         display: block;
         position: absolute;
         top: -70px;
-        right: 50px;
-        z-index: -1;
+        right: 10px;
+        z-index: -15;
     }
 }
 
