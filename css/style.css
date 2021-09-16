@@ -59,7 +59,7 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
-@media (min-width: 350px) {
+@media (min-width: 279px) {
     .container {
         width: 95%;
         margin: 0 auto;
